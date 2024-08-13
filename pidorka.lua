@@ -290,6 +290,10 @@ Section:NewButton("Infinite yield", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+Section:NewButton("Aimbot ( dont work )", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/aimbot.lua"))()
+end)
+
 Section:NewButton("ESP", "ButtonInfo", function()
     while wait(0.5) do
     for i, childrik in ipairs(workspace:GetDescendants()) do
@@ -319,6 +323,10 @@ Section:NewButton("tamhub", "ButtonInfo", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/bettertamhub.lua")()
 end)
 
+Section:NewButton("FFJ", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/TSBUtils.lua"))()
+end)
+
 local Tab = Window:NewTab("Blox fruits")
 
 local Section = Tab:NewSection("Work Scripts")
@@ -334,3 +342,23 @@ local Section = Tab:NewSection("Work Scripts")
 Section:NewButton("FFJ", "ButtonInfo", function()
     loadstring(game:HttpGet('https://rawscripts.net/raw/DOORS-FFJ-Hub-11365'))()
 end)
+
+local Tab = Window:NewTab("Blade ball")
+
+local Section = Tab:NewSection("Work Scripts")
+
+Section:NewButton("FFJ", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+end)
+
+local Tab = Window:NewTab("PS 99")
+
+local Section = Tab:NewSection("Work Scripts")
+
+Section:NewButton("Redz hub (didnt test)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+end)
+
+local Tab = Window:NewTab("Readme")
+
+local Section = Tab:NewSection("Если вы хотите увидеть тут новые игры, присылайте мне их в дискорд karasya")

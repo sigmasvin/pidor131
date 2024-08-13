@@ -361,4 +361,6 @@ end)
 
 local Tab = Window:NewTab("Readme")
 
-local Section = Tab:NewSection("Если вы хотите увидеть тут новые игры, присылайте мне их в дискорд karasya")
+local Section = Tab:NewSection("Если вы хотите увидеть тут новые игры, присылайте")
+
+local Section = Tab:NewSection("мне их в дискорд karasya")
